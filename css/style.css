@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 80%;
+    margin: auto;
+}
+
+/**************************
+Header
+**************************/
+header{
+    text-align: center;
+}
+
+h1{
+    margin:50px 0px 50px;
+    font-size: 50px;
+    color: #e53170;
+    font-weight: 700;
+}
+
+header p {
+    margin-bottom: 30px;
+    font-weight: 500;
+}
