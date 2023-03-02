@@ -11,7 +11,7 @@ body{
 }
 
 /**************************
-Header
+            Header
 **************************/
 header{
     text-align: center;
@@ -27,4 +27,76 @@ h1{
 header p {
     margin-bottom: 30px;
     font-weight: 500;
+}
+
+/**************************
+            Main
+**************************/
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.info{
+    height: 100%;
+    padding: 10px;
+    margin-left: 120px;
+}
+
+.card{
+    color: white;
+    background-color: black;
+    width: 30%;
+    transition: width 1s,background-color 1s, transform 1s;
+}
+
+.card:hover{
+    width: 33%;
+    rotate: 360deg;
+    zoom: 98%;
+    -webkit-box-shadow: 0.5px 0 9.5px 4px #000000;
+    -moz-box-shadow: 0.5px 0 9.5px 4px #000000;
+    box-shadow: 0.5px 0 9.5px 4px #000000;
+}
+
+
+.img_profile{
+    width: 120px;
+    height: 100%;
+    float: left;
+    clear: left;
+    transition: width 1s;
+}
+
+.img_profile:hover{
+    width: 130px;
+    margin-right: 10px;
+
+}
+
+.name{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.name:hover{
+    color: #0795e4;
+}
+
+.work{
+    font-size: 19px;
+}
+
+.mail{
+    font-size: 16px;
+    color: #0795e4;
+    text-transform: lowercase;
+}
+
+.clear_fix{
+    clear: both;
 }
