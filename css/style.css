@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -13,6 +14,7 @@ body{
 /**************************
             Header
 **************************/
+
 header{
     text-align: center;
 }
@@ -33,11 +35,23 @@ header p {
             Main
 **************************/
 
-main{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
+
+.container {
+    width:100%;
+    height:190px;
+    padding-top:20px;
+    padding-left:15px;
+    padding-right:15px;
+}
+.card1 {
+    float:left;
+}
+.card2 {
+    float:left;
+    margin-left:70px;
+}
+.card3 {
+    float:right;
 }
 
 .info{
@@ -55,7 +69,6 @@ main{
 
 .card:hover{
     width: 33%;
-    rotate: 360deg;
     zoom: 98%;
     -webkit-box-shadow: 0.5px 0 9.5px 4px #000000;
     -moz-box-shadow: 0.5px 0 9.5px 4px #000000;
@@ -95,8 +108,4 @@ main{
     font-size: 16px;
     color: #0795e4;
     text-transform: lowercase;
-}
-
-.clear_fix{
-    clear: both;
 }
